@@ -1,0 +1,20 @@
+storage:
+  mode: full
+  root: /data/artifacts
+  retention_days: null
+
+audit:
+  trusted_proxies:
+    - 127.0.0.1/32
+  store_watermark_text: true
+  store_extracted_text: true
+  store_passphrases: encrypted
+
+limits:
+  max_upload_bytes: 26214400
+  max_pixels: 24000000
+  max_concurrent_jobs: 1
+
+database_path: /data/watermark.sqlite3
+allowed_origins:
+  - http://localhost:3000

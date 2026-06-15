@@ -1,0 +1,1 @@
+"""Blind watermark REST API."""

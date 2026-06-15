@@ -1,0 +1,10 @@
+.git
+.github
+.env
+config.yaml
+data
+artifacts
+.venv
+node_modules
+dist
+coverage
