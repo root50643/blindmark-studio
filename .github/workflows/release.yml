@@ -26,7 +26,7 @@ jobs:
         run: |
           docker save "blindmark-backend:${GITHUB_REF_NAME}" | gzip > blindmark-backend.tar.gz
           docker save "blindmark-frontend:${GITHUB_REF_NAME}" | gzip > blindmark-frontend.tar.gz
-      - uses: softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda # v3.0.0
+      - uses: softprops/action-gh-release@3d0d9888cb7fd7b750713d6e236d1fcb99157228 # v3.0.2
         with:
           generate_release_notes: true
           files: |
